@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:hint="User Name" />
+        android:hint="@string/user_name" />
 
     <EditText
         android:id="@+id/password1"
@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/username1"
         android:layout_marginTop="50dp"
+        android:inputType="textPassword"
         android:hint="Password" />
 
     <Button

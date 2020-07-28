@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/username"
         android:layout_marginTop="50dp"
+        android:inputType="textPassword"
         android:hint="Password" />
 
 
@@ -28,7 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
         android:layout_marginTop="50dp"
-        android:hint="retype password" />
+        android:hint="retype password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnsignup"
